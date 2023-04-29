@@ -51,6 +51,6 @@ Unit tests for the SDK can be run using pytest. To run the tests, first install 
     
     Then run the tests:
     
-    ```pytest```
+    ```pytest tests```
 
 
