@@ -15,8 +15,9 @@ To use the SDK, import the `MovieAPI` and `QuoteAPI` classes and create instance
 ```python
 from movie_quote_api_sdk import MovieAPI, QuoteAPI
 
-movie_api = MovieAPI("https://example.com/api")
-quote_api = QuoteAPI("https://example.com/api")
+movie_api = MovieAPI("https://your-server-url.com/api")
+quote_api = QuoteAPI("https://your-server-url.com/api")
+
 ```
 
 Then call the appropriate method on the instance to retrieve or modify data:
